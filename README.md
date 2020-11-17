@@ -26,7 +26,33 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+[Nest](https://github.com/nestjs/nest) NestJS , TypeORM, PostgreSQL.
+
+Todo API CRUD & register and login with Passport Jwt
+GET
+http://localhost:3000/todos
+POST
+http://localhost:3000/todos
+{
+    "todo_text": "Buy Milk",
+    "isActive": false
+}
+PUT
+http://localhost:3000/todos/9
+{
+    "todo_text": "Buy Milk",
+    "isActive": true
+}
+Delete
+http://localhost:3000/todos/9
+
+Auth Register
+http://localhost:3000/auth/register
+AuthLogin
+http://localhost:3000/auth/login/
+{
+    "email":"test@gmail.com"
+}
 
 ## Installation
 
