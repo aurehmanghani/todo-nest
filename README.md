@@ -29,26 +29,31 @@
 [Nest](https://github.com/nestjs/nest) NestJS , TypeORM, PostgreSQL.
 
 Todo API CRUD & register and login with Passport Jwt
-GET
+
+## GET
 http://localhost:3000/todos
-POST
+
+## POST
 http://localhost:3000/todos
 {
     "todo_text": "Buy Milk",
     "isActive": false
 }
-PUT
+
+## PUT
 http://localhost:3000/todos/9
 {
     "todo_text": "Buy Milk",
     "isActive": true
 }
-Delete
+
+## Delete
 http://localhost:3000/todos/9
 
-Auth Register
+## Auth Register
 http://localhost:3000/auth/register
-AuthLogin
+
+## AuthLogin
 http://localhost:3000/auth/login/
 {
     "email":"test@gmail.com"
